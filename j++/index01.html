@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>01</title>
+    <script type="text/javascript" src="js/index.js"></script>
+    
+   
+</head>
+<body>
+   <div id="test"></div>
+   <template>
+      <p>1111111111111</p>
+    </template>
+    <script type="text/tpl" id="tpl">
+       <div>test</div>
+    </script>
+    <script>
+        var html = document.getElementById("tpl").innerHTML;
+        document.getElementById("test").innerHTML = html;
+    </script>
+</body>
+</html>
