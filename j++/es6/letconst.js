@@ -56,10 +56,12 @@ console.info(foo) // true */
   console.log(x) */
 
 
-/* let x;
+let x;
 if ([1][0] === undefined) {
   x = f();
 } else {
   x = [1][0];
 }
-console.log(x) */
+console.log(x)
+
+let a  =  "a"
